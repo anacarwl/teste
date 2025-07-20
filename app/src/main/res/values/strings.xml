@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Nome do aplicativo -->
+    <string name="app_name">MyPosts</string>
+
+    <!-- Títulos das telas -->
+    <string name="title_posts">Posts</string>
+    <string name="title_albums">Albums</string>
+
+    <!-- Mensagens de sucesso e erro -->
+    <string name="msg_successfully">Lista carregada com sucesso!</string>
+    <string name="error_unexpected">Um erro inesperado ocorreu. Tente novamente mais tarde.</string>
+    <string name="error_internet_connection">Conexão à internet necessária para uso da applicação.</string>
+
+</resources>
