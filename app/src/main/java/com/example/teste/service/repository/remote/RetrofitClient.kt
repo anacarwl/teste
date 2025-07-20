@@ -11,9 +11,9 @@ class RetrofitClient private constructor() {
         private const val BASE_URL = "https://jsonplaceholder.typicode.com/"
         private fun getRetrofitInstance(): Retrofit {
             val httpClient = OkHttpClient.Builder()
-                .connectTimeout(10, TimeUnit.SECONDS)
-                .readTimeout(10, TimeUnit.SECONDS)
-                .writeTimeout(10, TimeUnit.SECONDS)
+                .connectTimeout(1, TimeUnit.SECONDS)
+                .readTimeout(1, TimeUnit.SECONDS)
+                .writeTimeout(1, TimeUnit.SECONDS)
             if (!::retrofit.isInitialized) {
                 retrofit = Retrofit.Builder()
                     .baseUrl(BASE_URL)
